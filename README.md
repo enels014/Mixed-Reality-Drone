@@ -27,6 +27,4 @@ A Unity script for controlling a VR drone using **Meta Quest controllers** and *
 - Works with **Meta Quest Pro** controllers.
 - Automatically uses hand tracking when hands are detected, otherwise falls back to controllers.
 
-## License
 
-MIT License

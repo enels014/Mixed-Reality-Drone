@@ -21,6 +21,7 @@ A Unity script for controlling a VR drone using **Meta Quest controllers** and *
 1. Copy `DroneController.cs` into your Unity project’s **Scripts** folder.
 2. Attach the script to a **Rigidbody drone GameObject**.
 3. Make sure **XR Hands** and **OpenXR Hand Tracking** are enabled in Unity.
+4. Att
 
 ## Usage
 

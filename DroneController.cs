@@ -64,14 +64,14 @@ public class DroneController : MonoBehaviour
         float strafeInput = 0f;
         float forwardInput = 0f;
 
-        // --- Left joystick → X = strafe, Y = forward/back
+        // --- Left joystick →  = strafe, forward/back
         if (leftController.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 leftStick))
         {
             forwardInput = leftStick.y;
             strafeInput = leftStick.x;
         }
 
-        // --- Right joystick X → rotation
+        // --- Right joystick → rotation
         if (rightController.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 rightStick))
         {
             if (Mathf.Abs(rightStick.x) > 0.1f)
@@ -193,4 +193,5 @@ public class DroneController : MonoBehaviour
             rb.angularVelocity = Vector3.zero;
     }
 }
+
 

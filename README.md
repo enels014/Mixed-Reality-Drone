@@ -1,6 +1,6 @@
 # DroneVRController
 
-A Unity script for controlling a VR drone using **Meta Quest Pro controllers** and **hand tracking**.
+A Unity script for controlling a VR drone using **Meta Quest controllers** and **hand tracking**.
 
 ## Features
 
